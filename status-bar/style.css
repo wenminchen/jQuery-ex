@@ -1,0 +1,60 @@
+/* Google font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body {
+	background-color: #f3f6f6;
+	font-family: 'Open Sans', sans-serif;
+	width: 500px;
+	margin: 20px auto;
+}
+
+.statusbox {
+	background-color: #fff;
+	border: 1px solid #777;
+	font-size: 14px;
+	padding: 6px 12px;
+	width: 100%;
+}
+
+.btn-group {
+	float: right;
+}
+
+.btn {
+	background-color: #dfd71f;
+	border: 1px solid;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.btn.disabled{
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65;
+}
+
+.counter {
+	font-size: 12px;
+	display: inline;
+}
+
+.posts {
+	clear: both;
+	list-style: none;
+	margin-top: 50px;
+}
+
+.posts li {
+	background-color: #fff;
+	border: 1px solid #777;
+	font-size: 13px;
+	list-style: none;
+	padding: 10px;
+	margin: 25px;
+}
