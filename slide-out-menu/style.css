@@ -1,0 +1,60 @@
+/* Google font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+	position: relative;
+}
+
+.close-icon {
+	padding-left: 10px;
+}
+
+.menu {
+	background-color: #f3f6f6;
+	left: -250px; /* start off behind the scenes */
+	height: 100%;
+  	position: fixed;
+  	width: 250px;
+}
+
+.menu ul {
+	border-top: 1px solid #666;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li {
+	border-bottom: 1px solid #666;
+	list-style: none;
+	padding: 5px 0 5px 20px;
+}
+
+.menu a {
+	color: #777;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.jumbotron {
+	background: url("img/bg.jpg");
+	padding-bottom: 48%;
+	width: 100%;
+  	-webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.menu-icon {
+	cursor: pointer;
+	font-size: 18px;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+.menu-icon i{
+	margin-right: 5px;
+}
