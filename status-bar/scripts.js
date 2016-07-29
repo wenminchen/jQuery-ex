@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('.statusbox').keyup(function(){
 		var postLength = $(this).val().length;
-		var charLeft = 140 - postLength;
+		var charLeft = 150 - postLength;
 		$('.counter').text(charLeft);
 
 		if (charLeft < 0){
@@ -17,7 +17,7 @@ $(document).ready(function(){
 		
 		//return to initial state
 		$('.statusbox').val('');
-		$('.counter').text(140);
+		$('.counter').text(150);
 		$('.btn').addClass('disabled');
 	});
 	
