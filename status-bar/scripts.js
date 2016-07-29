@@ -6,8 +6,7 @@ $(document).ready(function(){
 
 		if (charLeft < 0){
 			$('.btn').addClass('disabled');
-		}
-		else {
+		} else {
 			$('.btn').removeClass('disabled');
 		}
 	});

@@ -1,0 +1,21 @@
+body {
+	margin: 0 auto;
+	width: 400px;
+}
+
+.panel {
+	background-color: #cc5630;
+	border: 1px solid #777;
+	height: 100px;
+}
+
+.btn {
+	padding: 5px;
+	border-radius: 5px;	
+	display: block;
+	margin: 0 auto;
+}
+
+.fa {
+	padding-left: 3px;
+}
